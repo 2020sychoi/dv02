@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="37px" viewBox="0 0 32 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="body_01_2" transform="translate(-476.000000, -186.000000)">
+            <g id="Group-2" transform="translate(476.000000, 186.000000)">
+                <path d="M16,0 C24.836556,0 32,7.163444 32,16 C32,23.6899783 26.5749215,30.1128615 19.3432334,31.650181 L16,37 L12.6557707,31.6499692 C5.42458043,30.1122719 0,23.6896253 0,16 C0,7.163444 7.163444,0 16,0 Z" id="Combined-Shape" fill="#207D46"></path>
+                <rect id="Rectangle" fill="#0E4E30" transform="translate(16.000000, 16.000000) rotate(-45.000000) translate(-16.000000, -16.000000) " x="11" y="11" width="10" height="10"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
