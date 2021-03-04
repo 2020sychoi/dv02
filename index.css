@@ -1783,6 +1783,20 @@ nav {
     filter: alpha(opacity=50); */
 }
 
+#benefit-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 990px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid rgba( 255, 255, 255, 0.07 );
+    box-shadow: 0 4px 30px 0 rgba(124, 124, 124, 0.2);
+    z-index: 1;
+}
+  
+
 .a-06-popup-con {
     margin: 40px 40px;
     width: 900px;
@@ -1865,18 +1879,6 @@ nav {
     margin-top: -1px;
 }
 
-#benefit-popup {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 990px;
-    height: 600px;
-    background-color: #fff;
-    border-radius: 12px;
-    border: 1px solid rgba( 255, 255, 255, 0.07 );
-    z-index: 1;
-}
-  
 .a-06-popup-btn {
     position: absolute;
     top: 22px;
