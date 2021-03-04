@@ -434,7 +434,7 @@ body {
 }
 
 .scroll-motion-wrap-02 {
-    width: 38px;
+    width: 36px;
     height: 100%;
     top: 0;
     margin: 0 auto;
@@ -444,19 +444,20 @@ body {
 .scroll-motion {
     position: absolute;
     margin: 0 auto;
-    width: 38px;
-    bottom: 30%;
+    width: 36px;
+    bottom: 27%;
 }
 
 .scroll-motion span {
     position: absolute;
     left: 0;
     content: "";
-    width: 38px;
-    height: 38px;
-    background-color: #ffffff;
+    width: 36px;
+    height: 36px;
+    background-color: black;
+    border: 1px solid #555;
     border-radius: 100%;
-    animation: ball 2.2s infinite;
+    animation: ball 1.5s infinite;
     box-sizing: border-box;
 }
 
@@ -469,7 +470,7 @@ body {
       opacity: 0.5;
     }
     80% {
-      transform: translate(0, 110px);
+      transform: translate(0, 100px);
       opacity: 0;
     }
     100% {
@@ -478,8 +479,8 @@ body {
 }
 
 #scroll-motion-txt {
-    left: -5px;
-    bottom: 9%;
+    left: -6px;
+    bottom: 10%;
     font-weight: 800;
     font-size: 1em;
     letter-spacing: 0.05em;
@@ -943,7 +944,7 @@ nav {
 }
 
 .a-03-project-more img {
-    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.08));
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.06));
 }
 
 .a-03-slide-right-btn {
@@ -1415,6 +1416,7 @@ nav {
     height: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 #a-06-bg-01 {
@@ -1426,7 +1428,7 @@ nav {
     height: 504px;
     margin-left: -88px;
     position: absolute;
-    animation: a-06-bg-01 0.6s cubic-bezier(0.4, 0, 1, 1) 0.2s both;
+    animation: 0;
 }
 
 @keyframes a-06-bg-01 {
@@ -1443,11 +1445,28 @@ nav {
 }
 
 #a-06-bg-02 {
+    background-image: url("resource/a-06-bg-02.png");
+    background-size: cover;
+    background-position: center center;
     background-color: #d8d8d8;
     width: 382px;
     height: 266px;
     margin: 348px 0 0 -80px;
     position: absolute;
+    animation: 0;
+}
+
+@keyframes a-06-bg-02 {
+
+    from {
+      transform: scale(1.4);
+      opacity: 0.2;
+    }
+ 
+    to { 
+      transform: scale(1); 
+      opacity: 1;
+    }
 }
 
 #a-06-bg-03 {
@@ -1459,7 +1478,7 @@ nav {
     height: 236px;
     margin: 20px 0 0 322px;
     position: absolute;
-    animation: a-06-bg-03 0.3s cubic-bezier(0.4, 0, 1, 1) 0.6s both;
+    animation: 0;
 }
 
 @keyframes a-06-bg-03 {
@@ -1484,6 +1503,20 @@ nav {
     height: 228px;
     margin: 248px 0 0 -228px;
     position: absolute;
+    animation: 0;
+}
+
+@keyframes a-06-bg-04 {
+
+    from {
+      transform: scale(1.6);
+      opacity: 0.2;
+    }
+ 
+    to { 
+      transform: scale(1); 
+      opacity: 1;
+    }
 }
 
 #a-06-bg-05 {
@@ -1496,34 +1529,71 @@ nav {
     bottom: 0;
     margin-left: -164px;
     position: absolute;
+    animation: 0;
+}
+
+#a-06-bg-05-1 {
+    background-image: url("resource/a-06-bg-05-1.png");
+    background-size: cover;
+    background-position: center center;
+    background-color: #bebebe;
+    width: 240px;
+    height: 250px;
+    bottom: 80px;
+    margin-left: 320px;
+    position: absolute;
+    animation: 0;
+}
+
+@keyframes a-06-bg-05-01 {
+
+    from {
+      transform: rotate(1 turn);
+      opacity: 0.2;
+    }
+ 
+    to { 
+      transform: translateX(-100px);      
+      opacity: 1; 
+    }
 }
 
 #a-06-bg-06 {
+    background-image: url("resource/a-06-bg-06.png");
+    background-size: cover;
+    background-position: center center;
     background-color: white;
     width: 242px;
     height: 242px;
     bottom: 0;
-    margin: 0 0 110px 160px;
+    margin: 0 0 110px 100px;
     position: absolute;
+    animation: 0;
 }
 
 #a-06-bg-07 {
+    background-image: url("resource/a-06-bg-07.png");
+    background-size: cover;
+    background-position: center center;
     background-color: #bebebe;
     width: 212px;
     height: 140px;
     bottom: 0;
-    margin: 0 0 30px 282px;
+    margin: 0 0 20px 70px;
     position: absolute;
-    
+    animation: 0;
 }
 
 #a-06-bg-08 {
+    background-image: url("resource/a-06-bg-08.png");
+    background-size: cover;
+    background-position: center center;
     background-color: #d8d8d8;
     width: 188px;
     height: 252px;
     margin: 46px 0 0 -116px;
     position: absolute;
-    animation: a-06-bg-08 0.6s cubic-bezier(0.6, -0.28, 0.74, 0.05) both;
+    animation: 0;
 }
 
 @keyframes a-06-bg-08 {
@@ -1549,7 +1619,7 @@ nav {
     height: 128px;
     margin: 10px 0 0 -208px;
     position: absolute;
-    animation: a-06-bg-09 0.6s cubic-bezier(0.4, 0, 1, 1) 0.4s both;
+    animation: 0;
 }
 
 @keyframes a-06-bg-09 {
@@ -1566,44 +1636,63 @@ nav {
 }
 
 #a-06-bg-10 {
+    background-image: url("resource/a-06-bg-10.png");
+    background-size: cover;
+    background-position: center center;
     background-color: #d8d8d8;
     width: 390px;
     height: 190px;
     right: 0;
     bottom: 0;
-    margin: 0 190px 0 0;
+    margin: 0 360px 0 0;
     position: absolute;
+    animation: 0;
 }
 
 #a-06-bg-11 {
+    background-image: url("resource/a-06-bg-11.png");
+    background-size: cover;
+    background-position: center center;
     background-color: #bebebe;
     width: 366px;
     height: 356px;
     right: 0;
     top: 30px;
-    margin: 0 -220px 0 0;
+    margin: 0 -120px 0 0;
     position: absolute;
+    animation: 0;
 }
 
 #a-06-bg-12 {
+    background-image: url("resource/a-06-bg-12.png");
+    background-size: cover;
+    background-position: center center;
     background-color: white;
     width: 604px;
     height: 420px;
     right: 0;
-    margin: 170px -150px 0 0;
+    margin: 170px -252px 0 0;
     position: absolute;
+    animation: 0;
 }
 
 #a-06-bg-13 {
+    background-image: url("resource/a-06-bg-13.png");
+    background-size: cover;
+    background-position: center center;
     background-color: #d8d8d8;
     width: 308px;
     height: 220px;
     right: 0;
     margin: 0 -60px 0 0;
     position: absolute;
+    animation: 0;
 }
 
 #a-06-bg-14 {
+    background-image: url("resource/a-06-bg-14.png");
+    background-size: cover;
+    background-position: center center;
     background-color: #a2a2a2;
     width: 230px;
     height: 264px;
@@ -1611,8 +1700,22 @@ nav {
     bottom: 100px;
     margin: 0 -180px 0 0;
     position: absolute;
+    animation: 0;
 }
 
+#a-06-bg-15 {
+    background-image: url("resource/a-06-bg-15.png");
+    background-size: cover;
+    background-position: center center;
+    background-color: #bebebe;
+    width: 180px;
+    height: 122px;
+    bottom: 0;
+    right: 0;
+    margin: 0 140px 0 0;
+    position: absolute;
+    animation: 0;
+}
 
 .a-06-txt-wrap {
     width: 100%;
@@ -1647,12 +1750,137 @@ nav {
     animation: 0;
 }
 
-#a-06-btn {
+.a-06-txt-btn {
     font-family: NotoSans;
     letter-spacing: -0.06em;
     text-decoration: underline;
-    padding-top: 10px;
+    padding-top: 14px;
     color: #888888;
+}
+
+.a-06-dim {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    overflow: hidden;
+  }
+  
+.dim-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba( 255, 255, 255, 0.2 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    /* background: #000;
+    opacity: 0.8;
+    filter: alpha(opacity=50); */
+}
+
+.a-06-popup-con {
+    margin: 40px 40px;
+    width: 900px;
+    height: 500px;
+    padding-top: 50px;
+    color: #121212;
+    line-height: 25px;
+    display: inline-flex;
+    /* overflow: scroll; */
+}
+
+.a-06-popup-con-left {
+    width: 14%;
+    height: 100%;
+    padding: 11px 50px 0 0;
+    text-align: right;
+    font-family: NotoSans;
+    font-weight: 700;
+    font-size: 1.6em;
+    display: block;
+    position: relative;
+}
+
+#a-06-popup-con-left-01 {
+    margin: 0;
+    color: #cdcdcd;
+}
+
+#a-06-popup-con-left-01-u {
+    width: 91px;
+    height: 1px;
+    margin: 7px 0 30px 26px;
+    background-color: #cdcdcd;
+}
+
+#a-06-popup-con-left-02 {
+    margin: 0;
+}
+
+#a-06-popup-con-left-02-u {
+    width: 91px;
+    height: 1px;
+    margin: 7px 0 0 26px;
+    background-color: #121212;
+}
+
+.a-06-popup-con-center {
+    width: 43%;
+    height: 100%;
+    margin: 0;
+    line-height: 2.8em;
+    display: inline-flex;
+}
+
+.a-06-popup-con-right {
+    width: 43%;
+    height: 100%;
+    margin: 0;
+    line-height: 2.8em;
+    display: inline-flex;
+}
+
+.a-06-popup-con-center-num {
+    width: 20px;
+    margin-left: 60px;
+    font-size: 1.3em;
+}
+
+.a-06-popup-con-right-num {
+    width: 32px;
+    margin-left: 40px;
+    font-size: 1.3em;
+}
+
+.a-06-popup-con-txt {
+    width: auto;
+    margin-right: 30px;
+    font-family: NotoSans;
+    font-size: 1.2em;
+    margin-top: -1px;
+}
+
+#benefit-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 990px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid rgba( 255, 255, 255, 0.07 );
+    z-index: 1;
+}
+  
+.a-06-popup-btn {
+    position: absolute;
+    top: 22px;
+    right: 22px;
 }
 
 
@@ -1690,13 +1918,20 @@ nav {
     margin: 0 auto;
 }
 
-#a-08-title {
+.a-08-title {
     margin: 0 0 0 -4px;
     font-weight: 700;
     font-size: 3.5em;
     letter-spacing: -0.05em;
     line-height: 1.33em;
     color: #121212;
+}
+
+#a-08-title-01 {
+    animation: 0;
+}
+
+#a-08-title-02 {
     animation: 0;
 }
 
@@ -1792,7 +2027,7 @@ nav {
     font-family: NotoSans;
     font-weight: 400;
     font-size: 0.9em;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.06em;
     line-height: 0.5em;
     color: #b0b0b0;
     position: absolute;
@@ -1859,7 +2094,7 @@ nav {
 }
 
 .a-08-join-right-share-right {
-    width: 70%;
+    width: 75%;
     right: 0;
     top: 2px;
     text-align: right;
@@ -1867,7 +2102,7 @@ nav {
 }
 
 .a-08-join-right-share-right img {
-    margin-left: 16px;
+    margin-left: 14px;
 }
 
 
