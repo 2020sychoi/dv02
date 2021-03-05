@@ -881,8 +881,7 @@ nav {
     position: relative;
     float: left; 
     width: 476px; 
-    height: 476px;
-    
+    height: 476px;  
 }
 
 .a-03-project-txt {
@@ -899,7 +898,7 @@ nav {
 
 .a-03-project-script-wrap {
     text-align: center;
-    width: 200px;
+    width: 500px;
     margin: 0 auto;
     padding-top: 12px;
     position: relative;
@@ -957,7 +956,7 @@ nav {
 .a-04 {
     left: 0;
     width: 100%;
-    height: 990px;
+    height: 960px;
     position: relative;
 }
 
@@ -1110,6 +1109,20 @@ nav {
     animation: a-04-mm-talk 0.6s cubic-bezier(0.4, 0, 1, 1) infinite both;
 }
 
+@keyframes a-04-mm-talk {
+    0% {
+            transform: translateY(0px);
+    }
+
+    50% {
+            transform: translateY(-5px);
+    }
+
+    100% {
+            transform: translateY(0px);
+    }
+}
+
 #a-04-mm-04-shadow {
     position: absolute;
     margin-top: 52%;
@@ -1191,8 +1204,8 @@ nav {
 
 #a-04-mm-06-shadow {
     position: absolute;
-    margin-top: 24%;
-    right: 8.7%;
+    margin-top: 21%;
+    right: 9.7%;
     width: 8%;
     animation: a-04-mm-06-shadow 1.5s infinite 0.1s both;
 }
@@ -1213,8 +1226,8 @@ nav {
 
 #a-04-mm-06 {
     position: absolute;
-    margin-top: 11.6%;
-    right: 10%;
+    margin-top: 8.6%;
+    right: 11%;
     width: 5.2%;
     z-index: 1;
     animation: a-04-mm-06 1.5s cubic-bezier(0.4, 0, 1, 1) 0.1s infinite both;
@@ -1309,6 +1322,7 @@ nav {
     margin-top: 42%;
     left: 51.5%;
     width: 10.5%;
+    z-index: 1;
 }
 
 #a-04-mm-10-1 {
@@ -1319,19 +1333,85 @@ nav {
     height: auto;
 }
 
-@keyframes a-04-mm-talk {
-    0% {
-            transform: translateY(0px);
-    }
-
-    50% {
-            transform: translateY(-5px);
-    }
-
-    100% {
-            transform: translateY(0px);
-    }
+#a-04-mm-20-shadow {
+    position: absolute;
+    margin-top: 49%;
+    right: 5%;
+    width: 16%;
+    height: 11%;
 }
+
+#a-04-mm-20 {
+    position: absolute;
+    margin-top: 43%;
+    right: 7%;
+    width: 16%;
+}
+
+#a-04-mm-21-shadow {
+    position: absolute;
+    margin-top: 60.5%;
+    right: 33%;
+    width: 14%;
+    opacity: 0.7;
+}
+
+#a-04-mm-21 {
+    position: absolute;
+    margin-top: 56%;
+    right: 31.5%;
+    width: 12%;
+}
+
+#a-04-mm-22-shadow {
+    position: absolute;
+    margin-top: 26.6%;
+    right: -1.7%;
+    width: 7%;
+}
+
+#a-04-mm-22 {
+    position: absolute;
+    margin-top: 13.4%;
+    right: -1%;
+    width: 5.4%;
+}
+
+#a-04-mm-23-shadow {
+    position: absolute;
+    margin-top: 58.5%;
+    right: 37%;
+    width: 14%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#a-04-mm-23 {
+    position: absolute;
+    margin-top: 53%;
+    right: 35%;
+    width: 14%;
+    z-index: -1;
+}
+
+#a-04-mm-24-shadow {
+    position: absolute;
+    margin-top: 58%;
+    left: 35%;
+    width: 12%;
+    height: 11%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#a-04-mm-24 {
+    position: absolute;
+    margin-top: 54.2%;
+    left: 33%;
+    width: 13.5%;
+    z-index: -1;
+}
+
 
 
 /* PC article a-05 후기 인터뷰 시작 */
@@ -1736,7 +1816,7 @@ nav {
     font-size: 1.2em;
     letter-spacing: -0.05em;
     color: #168e4c;
-    margin: 0.8% 0 0;
+    margin-top: 0.8%;
     animation: 0;
 }
 
@@ -2214,19 +2294,243 @@ footer {
         min-width: 40px;
         height: auto;
     }
-
 }
 
 
-/* 미디어쿼리 width 1200px 아래 - nav-gnb-navigation 폭 조정 */
+/* 미디어쿼리 width 1200px 아래 */
 
 @media screen and (max-width: 1200px) {
-    
+
+    body {
+        overflow-x: hidden;
+    }
+
     .nav-bg {
         width: 98.2%;
     }
 
+
+    /* 1200px 아래 article a-01 시작 */
+
+    .a-01 {
+        width: 100%;
+        height: 534px;
+    }
+
+    .a-01-vision {
+        width: 94%;
+        padding-top: 160px;
+    }
+
+    .a-01-vision p{
+        font-size: 4.4em;
+        letter-spacing: -0.05em;
+    }
+
+
+    /* 1200px 아래 article a-02 시작 */
+
+    .a-02 {
+        width: 100%;
+        height: 890px;
+        margin: 0;
+        position: relative;
+        display: inline-block;
+    }
+
+    .a-02-bg-wrap {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .a-02-bg {
+        margin: 0 auto;
+        width: 94%;
+        height: 100%;
+        filter: saturate(90%);
+    }
+
+    #a-02-bg-01 {
+        width: 32%;
+    }
+
+    #a-02-bg-02 {
+        width: 12%;
+    }
+
+    #a-02-bg-03 {
+        width: 7%;
+    }
+
+    .a-02-wrap {
+        width: 94%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+
+    /* 1200px 아래 article a-03 시작 */
+    
+    .a-03 {
+        height: 910px;
+    }
+
+    .a-03-wrap {
+        width: 100%;
+    }
+
+    .a-03-project {
+        width: 100%
+    }
+
+    .a-03-project ul {
+        width: 94%;
+    }
+
+    .a-03-project ul li img {
+        position: relative;
+        float: left; 
+        width: 400px; 
+        height: 400px;  
+    }
+
+    .a-03-project-more-wrap {
+        position: absolute;
+        bottom: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .a-03-project-more-wrap {
+        bottom: 110px;
+    }
+    
+    .a-03-project-more {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+
+    /* 1200px 아래 article a-04 시작 */
+
+    .a-04 {
+        height: auto;
+        margin-bottom: 280px;
+    }
+
+    .a-04-phone {
+        width: 34%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .a-04-phone-wrap {
+        width: 34%;
+        min-width: 350px;
+        position: relative;
+        display: flex;
+    }
+    
+    #a-04-phone-shadow {
+        width: 33%;
+        height: 50%;
+        left: 10px;
+        min-height: 510px;
+        min-width: 330px;
+        margin: 0;
+    }
+    
+    #a-04-phone-img {
+        width: 34%;
+        min-width: 350px;
+        margin: 0;
+        height: auto;
+    }
+    
+    #a-04-mail-img {
+        width: 110px;
+        margin-top: 120px;
+    }
+
+    .a-04-txt-wrap {
+        width: 100%;
+        margin-top: 220px;
+        z-index: 1;
+    }
+
+    .a-04-mm-wrap {
+        position: absolute;
+        top: 5%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .a-04-mm {
+        width: 94%;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+
+    /* 1200px 아래 article a-05 시작 */
+
+    .a-05-con {
+        width: 94%;
+    }
+
+    .a-05-slide-more {
+        width: 100%;
+    }
+
+
+    /* 1200px 아래 article a-06 시작 */
+
+    .a-06 {
+        height: 800px;
+    }
+
+    .a-06-bg {
+        width: 94%;
+    }
+
+    #a-06-bg-01 {
+        width: 30%;
+
+    }
+
+    .a-06-txt {
+        width: 100%;
+    }
+
+    #a-06-sub-title {
+        padding-top: 280px;
+    }
+
+
+    /* 1200px 아래 article a-08 시작 */
+
+    .a-08-wrap {
+        width: 94%;
+    }
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
 
 
 /* 미디어쿼리 width 1024px 아래 */
