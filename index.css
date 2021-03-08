@@ -639,7 +639,7 @@ nav {
     font-weight: 700;
     font-size: 1.2em;
     color: #168e4c;
-    margin: 0.8% 0 0;
+    margin: 1% 0 0 -1px;
     animation: 0;
 }
 
@@ -819,6 +819,10 @@ nav {
     box-sizing: border-box; 
 }
 
+#tab-contents-03-2 {
+    display: none;
+}
+
 .a-02-tab input:checked ~ label{
     height: 70px;
     color: #121212;
@@ -892,7 +896,7 @@ nav {
     line-height: 1.45em;
     color: #121212;
     text-align: center;
-    margin-top: -10px;
+    margin-top: 0px;
     animation: 0;
 }
 
@@ -932,7 +936,7 @@ nav {
 
 .a-03-project-more-wrap {
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
     width: 100%;
     height: auto;
 }
@@ -1737,8 +1741,7 @@ nav {
     width: 366px;
     height: 356px;
     right: 0;
-    top: 30px;
-    margin: 0 -120px 0 0;
+    margin: 30px -120px 0 0;
     position: absolute;
     animation: 0;
 }
@@ -1792,7 +1795,7 @@ nav {
     height: 122px;
     bottom: 0;
     right: 0;
-    margin: 0 140px 0 0;
+    margin-right: 140px;
     position: absolute;
     animation: 0;
 }
@@ -2121,7 +2124,7 @@ nav {
 }
 
 .a-08-join-right {
-    width: 23%;
+    width: 275px;
     height: 60%;
     right: 0;
     position: absolute;
@@ -2301,7 +2304,7 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
-    body {
+    html, body {
         overflow-x: hidden;
     }
 
@@ -2310,7 +2313,7 @@ footer {
     }
 
 
-    /* 1200px 아래 article a-01 시작 */
+    /* width 1200px 아래 article a-01 시작 */
 
     .a-01 {
         width: 100%;
@@ -2324,11 +2327,14 @@ footer {
 
     .a-01-vision p{
         font-size: 4.4em;
-        letter-spacing: -0.05em;
+    }
+
+    #a-01-vision-04 {
+        margin: 1% 0 0 -2px;
     }
 
 
-    /* 1200px 아래 article a-02 시작 */
+    /* width 1200px 아래 article a-02 시작 */
 
     .a-02 {
         width: 100%;
@@ -2370,8 +2376,16 @@ footer {
         margin: 0 auto;
     }
 
+    #tab-contents-03-1 {
+        display: none;
+    }
 
-    /* 1200px 아래 article a-03 시작 */
+    #tab-contents-03-2 {
+        display: block;
+    }
+
+
+    /* width 1200px 아래 article a-03 시작 */
     
     .a-03 {
         height: 910px;
@@ -2413,7 +2427,7 @@ footer {
     }
 
 
-    /* 1200px 아래 article a-04 시작 */
+    /* width 1200px 아래 article a-04 시작 */
 
     .a-04 {
         height: auto;
@@ -2475,7 +2489,7 @@ footer {
     }
 
 
-    /* 1200px 아래 article a-05 시작 */
+    /* width 1200px 아래 article a-05 시작 */
 
     .a-05-con {
         width: 94%;
@@ -2486,39 +2500,142 @@ footer {
     }
 
 
-    /* 1200px 아래 article a-06 시작 */
+    /* width 1200px 아래 article a-06 우리의준비 복리후생 시작 */
 
     .a-06 {
         height: 800px;
     }
 
     .a-06-bg {
-        width: 94%;
+        width: 100%;
     }
 
     #a-06-bg-01 {
-        width: 30%;
-
+        width: 32%;
+        height: 54%;
+        margin-left: -100px;
     }
+
+    #a-06-bg-02 {
+        width: 36%;
+        height: 28%;
+        margin: 300px 0 0 -120px;
+    }
+
+    #a-06-bg-03 {
+        width: 30%;
+        height: 25%;
+        margin: 20px 0 0 270px;
+    }
+
+    #a-06-bg-04 {
+        width: 22%;
+        height: 20%;
+        margin: 220px 0 0 -80px;
+    }
+
+    #a-06-bg-05 {
+        width: 26%;
+        height: 38%;
+        margin-left: -84px;
+    }
+
+    #a-06-bg-05-1 {
+        width: 22%;
+        height: 22%;
+        margin-left: 270px;
+        bottom: 60px;
+    }
+
+    #a-06-bg-06 {
+        width: 22%;
+        height: 22%;
+        margin: 0 0 90px 120px;
+    }
+
+    #a-06-bg-07 {
+        width: 15%;
+        height: 14%;
+        margin: 0 0 30px 90px;
+    }
+
+    #a-06-bg-08 {
+        width: 12%;
+        height: 22%;
+        margin: 60px 0 0 -30px;
+    }
+
+    #a-06-bg-09 {
+        width: 12%;
+        height: 12%;
+        margin: 10px 0 0 20px;
+    }
+
+    #a-06-bg-10 {
+        width: 30%;
+        height: 24%;
+        margin: 0 36% 0 0;
+    }
+
+    #a-06-bg-11 {
+        width: 18%;
+        height: 30%;
+        margin: 30px 100px 0 0;
+    }
+
+    #a-06-bg-12 {
+        width: 50%;
+        height: 46%;
+        margin: 130px -250px 0 0;
+    }
+
+    #a-06-bg-13 {
+        width: 22%;
+        height: 19%;
+        margin-right: 10%;
+    }
+
+    #a-06-bg-14 {
+        width: 14%;
+        height: 30%;
+        bottom: 100px;
+        margin: 0;
+    }
+
+    #a-06-bg-15 {
+        margin-right: 20%;
+    }
+
 
     .a-06-txt {
         width: 100%;
     }
 
     #a-06-sub-title {
-        padding-top: 280px;
+        padding-top: 270px;
     }
 
 
-    /* 1200px 아래 article a-08 시작 */
+    /* width 1200px 아래 article a-08 시작 */
 
     .a-08-wrap {
         width: 94%;
     }
 
+    .a-08-join-left {
+        width: 68%;
+    }
 
 
+    /* 1200px 아래 footer 시작 */
 
+    .footer-wrap {
+        width: 100%;
+    }
+
+    .footer-icon {
+        width: 80%;
+    }
 
 
 }
@@ -2533,13 +2650,9 @@ footer {
 
 
 
-/* 미디어쿼리 width 1024px 아래 */
+/* 미디어쿼리 width 1024px 태블릿가로 아래 */
 
 @media screen and (max-width: 1024px) {
-
-    html, body {
-        overflow-x: hidden;
-    }
 
     .header-pc {
         max-height: 640px;
@@ -2659,9 +2772,160 @@ footer {
         min-width: 38px;
     }
 
+
+    /* width 1024px 태블릿가로 아래 header-mouse-scroll-motion 시작 */
+
+    .scroll-motion {
+        bottom: 30%;
+    }
+
+
+    /* width 1024px 태블릿가로 아래 article a-01 시작 */
+
+    .a-01 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .a-01-vision {
+        height: auto;
+        padding: 140px 0 140px 0;
+    }
+
+    .a-01-vision p{
+        font-size: 7.2vw;
+        margin: -1% 0 0 -3px;
+    }
+
+
+    /* width 1024px 태블릿가로 아래 article a-02 시작 */
+
+    .a-02 {
+        height: 640px;
+    }
+
+    .a-02-bg {
+        width: 94%;
+        height: 100%;
+        filter: saturate(90%);
+    }
+
+    .a-02-bg-wrap {
+        position: absolute;
+        top: -150px;
+        right: -80px;
+    }
+
+    #a-02-bg-01 {
+        width: 35%;
+        max-width: 300px;
+    }
+
+    #a-02-bg-02 {
+        width: 13%;
+        margin-right: -60px;
+    }
+
+    #a-02-bg-03 {
+        width: 7%;
+    }
+
+    #a-02-sub-title {
+        margin-top: 0;
+    }
+    
+    #a-02-title {
+        font-size: 3.1em;
+    }
+
+    .a-02-tab { 
+        width: 80%;
+        margin: 30px 0 0;
+    }
+
+    .a-02-tab-btn-01 {
+        width: 176px;
+    }
+    
+    .a-02-tab-btn-02 {
+        width: 90px;
+    }
+    
+    .a-02-tab-btn-03 {
+        width: 90px;
+    }
+    
+    .a-02-tab-btn-blank {
+        width: 8%;
+    }
+    
+    .a-02-tab-eng {
+        font-weight: 800;
+        letter-spacing: 0em;
+        font-size: 0.95em;
+    }
+
+    .tab-contents {
+        font-size: 1.1em;
+    }
+
+
+    /* width 1024px 태블릿가로 아래 article a-03 시작 */
+
+    .a-03 {
+        height: 775px;
+    }
+
+    #a-03-title {
+        font-size: 1.6em;
+        margin: 140px 0 0;
+    }
+
+    .a-03-project {
+        height: 515px; 
+        top: 200px;
+        left: 0;
+        padding: 0; 
+        margin: 0;
+    }    
+
+    .a-03-project ul li img {
+        position: relative;
+        float: left; 
+        width: 310px; 
+        height: 310px;  
+    }
+
+    .a-03-project-txt {
+        font-size: 0.95em;
+        letter-spacing: -0.04em;
+        line-height: 1.45em;
+        color: #121212;
+        text-align: center;
+        margin-top: 0px;
+        animation: 0;
+    }
+
+
+
+
 }
 
-/* 미디어쿼리 Tablet width 768px 아래 */
+
+
+
+
+
+
+
+
+
+
+
+/* 미디어쿼리 Tablet width 768px 태블릿세로 아래 */
 
 @media screen and (max-width: 768px) {
 
