@@ -896,6 +896,10 @@ nav {
     height: 476px;  
 }
 
+.a-03-project-txt-m {
+    display: none;
+}
+
 .a-03-project-txt {
     font-family: NotoSans;
     font-weight: 400;
