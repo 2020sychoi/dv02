@@ -1989,7 +1989,7 @@ nav {
 }
 
 
-/* PC article a-07 우리의준비 복리후생 시작 */
+/* PC article a-07 유튜브영상 시작 */
 
 .a-07 {
     width: 100%;
@@ -2034,6 +2034,10 @@ nav {
 
 #a-08-title-01 {
     animation: 0;
+}
+
+#a-08-title-02-m {
+    display: none;
 }
 
 #a-08-title-02 {
@@ -2180,7 +2184,6 @@ nav {
 }
 
 .a-08-join-right-share {
-    background-color: cyan;
     width: 100%;
     top: 10px;
     position: relative;
@@ -3084,7 +3087,7 @@ footer {
     }
 
 
-    /* width 1024px 태블릿가로 아래 article a-07 시작 */
+    /* width 1024px 태블릿가로 아래 article a-07 유튜브영상 시작 */
 
     .a-07 {
         width: 100%;
@@ -3954,7 +3957,7 @@ footer {
     /* Mobile width 480px 아래 article a-04 시작 */
 
     .a-04 {
-        height: 790px;
+        height: 800px;
     }
 
     .a-04-phone {
@@ -3995,14 +3998,14 @@ footer {
 
     #a-04-mm-09-shadow-m {
         position: absolute;
-        bottom: 95px;
+        bottom: 115px;
         left: 46px;
         width: 190px;
     }
 
     #a-04-mm-09-m {
         position: absolute;
-        bottom: 125px;
+        bottom: 145px;
         left: 80px;
         width: 120px;
         z-index: 1;
@@ -4010,7 +4013,7 @@ footer {
 
     #a-04-mm-10-shadow-m {
         position: absolute;
-        bottom: 105px;
+        bottom: 125px;
         left: 192px;
         width: 130px;
         height: 60px;
@@ -4018,7 +4021,7 @@ footer {
 
     #a-04-mm-10-m {
         position: absolute;
-        bottom: 133px;
+        bottom: 153px;
         left: 205px;
         width: 110px;
         z-index: 1;
@@ -4026,7 +4029,7 @@ footer {
 
     #a-04-mm-10-1-m {
         position: absolute;
-        bottom: 396px;
+        bottom: 416px;
         left: 230px;
         width: 35px;
         height: auto;
@@ -4035,7 +4038,7 @@ footer {
 
     #a-04-mm-21-shadow-m {
         position: absolute;
-        bottom: 125px;
+        bottom: 145px;
         left: 220px;
         width: 140px;
         opacity: 0.7;
@@ -4043,14 +4046,14 @@ footer {
 
     #a-04-mm-21-m {
         position: absolute;
-        bottom: 146px;
+        bottom: 166px;
         left: 240px;
         width: 116px;
     }
 
     #a-04-mm-23-shadow-m {
         position: absolute;
-        bottom: 140px;
+        bottom: 160px;
         left: 190px;
         width: 140px;
         z-index: -1;
@@ -4059,7 +4062,7 @@ footer {
 
     #a-04-mm-23-m {
         position: absolute;
-        bottom: 166px;
+        bottom: 186px;
         left: 200px;
         width: 126px;
         z-index: -1;
@@ -4067,7 +4070,7 @@ footer {
 
     #a-04-mm-24-shadow-m {
         position: absolute;
-        bottom: 120px;
+        bottom: 140px;
         left: 34px;
         width: 100px;
         height: 80px;
@@ -4077,7 +4080,7 @@ footer {
 
     #a-04-mm-24-m {
         position: absolute;
-        bottom: 150px;
+        bottom: 170px;
         left: 14px;
         width: 135px;
         z-index: -1;
@@ -4087,11 +4090,14 @@ footer {
         display: none;
         margin: 0 auto;
         width: 120px;
-        margin-top: 15px;
+    }
+
+    .a-04-txt-wrap {
+        margin-top: 175px;
     }
 
     #a-04-txt-01 {
-        font-size: 1.8em;
+        font-size: 1.6em;
         letter-spacing: 0.01em;
         animation: 0;
     }
@@ -4118,6 +4124,163 @@ footer {
 
     .a-05-slide-name {
         font-size: 1.1em;
+    }
+
+    .a-05-slide-more-wrap {
+        top: 300px;
+    }
+
+
+    /* Mobile width 480px 아래 article a-06 우리의준비 시작 */
+
+    #a-06-sub-title {
+        font-size: 1.1em;
+    }
+
+    #a-06-title {
+        font-size: 1.9em;
+        padding-bottom: 2px;
+    }
+
+
+    /* Mobile width 480px 아래 article a-07 유튜브영상 시작 */
+
+    .a-07 {
+        height: 500px;
+    }
+
+    .a-07-wrap {
+        width: 94%;
+        height: 240px;
+        top: 140px;
+    }
+
+
+    /* Mobile width 480px 아래 article a-08 채용공고 시작 */
+
+    .a-08-wrap {
+        height: 1000px;
+    }
+
+
+    .a-08-title {
+        margin: 0 0 0 -4px;
+        font-weight: 700;
+        font-size: 1.9em;
+        letter-spacing: -0.05em;
+        line-height: 1.33em;
+        color: #121212;
+    }
+
+    #a-08-title-02 {
+        display: none;
+    }
+
+    #a-08-title-02-m {
+        display: block;
+    }
+
+    .a-08-join-left {
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .a-08-join-list-01 {
+        min-height: 92px;
+        margin-top: 16px;
+    }
+
+
+    .a-08-join-right {
+        background-color: #0E4E30;
+        height: 100%;
+        bottom: 0;
+        position: relative;
+    }
+
+    .a-08-join-right-share {
+        width: 100%;
+        top: 80px;
+        position: relative;
+        
+    }
+
+    .a-08-join-right-share-left {
+        width: 100%;
+        display: block;
+        position: static;
+    }
+
+    .a-08-join-right-share-left p {
+        font-size: 0.9em;
+        letter-spacing: -0.05em;
+        line-height: 0;
+        color: #c0c0c0;
+        text-align: center;
+    }
+
+    .a-08-join-right-share-right {
+        width: 100%;
+        right: 0;
+        top: 0;
+        padding: 10px 0 0 4px;
+        text-align: center;
+        display: block;
+        position: static;
+    }
+
+    .a-08-join-right-share-right img {
+        margin-right: 24px;
+    }
+
+
+    /* Mobile width 480px 아래 article a-09 비전문구 시작 */
+
+    .a-09-txt-wrap {
+        position: relative;
+        top: 42%;
+    }
+
+    #a-09-txt-eng {
+        display: none;
+    }
+
+    #a-09-txt-eng-m {
+        text-align: center;
+        color: white;
+        font-weight: 800;
+        font-size: 1.4em;
+        text-transform: uppercase;
+        animation: 0;
+        text-shadow: 0 0 4px rgba(0, 0, 0, 0.2)
+    }
+
+    #a-09-txt-kor {
+        padding-top: 10px;
+        font-size: 1.1em;
+    }
+
+
+    /* Mobile width 480px 아래 footer 시작 */
+
+    footer {
+        height: 220px;
+    }
+
+    .footer-icon {
+        width: 100%;
+        padding-left: 5px;
+    }
+
+    .footer-icon img {
+        width: 70px;
+        margin-right: 10px;
+    }
+
+    .footer-copyright p {
+        font-size: 0.8em;
     }
 
 
