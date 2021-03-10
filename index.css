@@ -3840,7 +3840,7 @@ footer {
     }
 
     #a-02-title {
-        font-size: 2.4em;
+        font-size: 2em;
     }
 
     .a-02-tab { 
@@ -3849,15 +3849,19 @@ footer {
     }
 
     .a-02-tab-btn-01 {
-        width: 170px;
+        width: 146px;
+    }
+
+    .a-02-tab-btn-02 {
+        width: 76px;
     }
 
     .a-02-tab-btn-03 {
-        width: 86px;
+        width: 70px;
     }
 
     .a-02-tab-btn-blank {
-        width: 8%;
+        width: 6%;
     }
 
     #a-02-tab-btn-blank-last {
@@ -3866,7 +3870,7 @@ footer {
 
     .a-02-tab-eng {
         letter-spacing: 0em;
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     .a-02-tab-kor {
