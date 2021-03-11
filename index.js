@@ -9,8 +9,10 @@ $(document).ready(function(){
 
         if(scroll_pos > a_01_Y) {
             $("nav").css('display', 'block');
+            $(".join-btn-m").css('display', 'block');
         } else {
             $("nav").css('display', 'none');
+            $(".join-btn-m").css('display', 'none');
         }
         
         if(scroll_pos > (a_01_Y - 350)) {
