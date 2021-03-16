@@ -3796,40 +3796,14 @@ footer {
 
     /* Mobile width 480px 아래 mouse-scroll-motion 시작 */
 
-    .scroll-motion-wrap {
-        width: 100%;
-        height: 100%;
-        top: 0;
-        position: absolute;
-    }
-
-    .scroll-motion-wrap-02 {
-        width: 36px;
-        height: 100%;
-        top: 0;
-        margin: 0 auto;
-        position: relative;
-    }
-
     .scroll-motion {
-        position: absolute;
-        margin: 0 auto;
-        width: 36px;
-        bottom: 27%;
+        bottom: 49%;
     }
 
-    .scroll-motion span {
-        position: absolute;
-        left: 0;
-        content: "";
-        width: 36px;
-        height: 36px;
-        background-color: black;
-        border: 1px solid #555;
-        border-radius: 100%;
-        animation: ball 1.5s infinite;
-        box-sizing: border-box;
+    #scroll-motion-txt {
+        bottom: 34%;
     }
+
 
 
     /* Mobile width 480px 아래 nav-gnb-navigation 시작 */
