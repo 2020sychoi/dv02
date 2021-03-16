@@ -3900,6 +3900,7 @@ footer {
         width: 94%;
         text-decoration: none;
         letter-spacing: -0.02em;
+        box-shadow: 0 3px 12px 0 rgba(124, 124, 124, 0.4);
     }
 
 
