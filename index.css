@@ -4306,36 +4306,36 @@ footer {
     .a-06-popup-con-center {
         width: 100%;
         height: auto;
-        margin: 86px 0 0;
-        line-height: 2.1em;
+        margin: 90px 0 0;
+        line-height: 2em;
         display: inline-flex;
     }
 
     .a-06-popup-con-right {
         width: 100%;
         height: auto;
-        margin: 384px 0 0;
-        line-height: 2.1em;
+        margin: 396px 0 0;
+        line-height: 2em;
         display: inline-flex;
     }
 
     .a-06-popup-con-center-num {
         width: 20px;
         margin-left: 30px;
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .a-06-popup-con-right-num {
         width: 28px;
         margin-left: 30px;
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .a-06-popup-con-txt {
         width: auto;
         margin-right: 0;
         font-family: NotoSans;
-        font-size: 1.1em;
+        font-size: 1em;
         margin-top: -1px;
     }
 
