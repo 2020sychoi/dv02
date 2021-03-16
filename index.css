@@ -800,6 +800,11 @@ nav {
     letter-spacing: 0em;
 }
 
+.a-02-tab-con-eng {
+    font-weight: 800;
+    letter-spacing: 0em;
+}
+
 .a-02-tab-kor {
     display: block;
     font-weight: 700;
@@ -2895,6 +2900,11 @@ footer {
         font-size: 0.95em;
     }
 
+    .a-02-tab-con-eng {
+        letter-spacing: 0em;
+        font-size: 0.95em;
+    }
+
     .tab-contents {
         font-size: 1.1em;
     }
@@ -4010,6 +4020,11 @@ footer {
     .a-02-tab-eng {
         letter-spacing: 0em;
         font-size: 0.7em;
+    }
+
+    .a-02-tab-con-eng {
+        letter-spacing: 0em;
+        font-size: 1em;
     }
 
     .a-02-tab-kor {
