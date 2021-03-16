@@ -3984,7 +3984,7 @@ footer {
     }
 
     .a-02-tab ul li {
-        height: 64px;
+        height: 60px;
     }
 
     .a-02-tab-btn-01 {
@@ -4022,11 +4022,11 @@ footer {
         line-height: 1.7em;
         font-size: 0.9em;
         letter-spacing: -0.04em;
-        top: 88px; 
+        top: 80px; 
     }
 
     .a-02-tab input:checked ~ label{
-        height: 64px;
+        height: 60px;
     }
 
 
