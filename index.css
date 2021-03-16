@@ -4298,7 +4298,7 @@ footer {
 
 
     .a-08-title {
-        margin: 0 0 0 -4px;
+        margin: 0 0 0 -2px;
         font-weight: 700;
         font-size: 1.9em;
         letter-spacing: -0.05em;
@@ -4319,6 +4319,23 @@ footer {
         width: 100%;
         height: 100%;
         position: relative;
+    }
+
+    #a-08-join-tab {
+        height: 36px;
+        left: -1px;
+    }
+
+    #a-08-join-tab-btn-01 {
+        padding: 10px 26px 9px;
+        letter-spacing: -0.04em;
+        font-size: 0.9em;
+    }
+
+    #a-08-join-tab-btn-02 {
+        padding: 10px 26px 9px;
+        letter-spacing: -0.04em;
+        font-size: 0.9em;
     }
 
     .a-08-join-list-01 {

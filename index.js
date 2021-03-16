@@ -75,10 +75,12 @@ $(document).ready(function(){
 
         if(scroll_pos > (a_08_Y - 500)) {
             $("#a-08-title-01").css('animation', 'a-01-txt 0.7s 0s both'); 
-            $("#a-08-title-02").css('animation', 'a-01-txt 0.7s 0.4s both'); 
+            $("#a-08-title-02").css('animation', 'a-01-txt 0.7s 0.4s both');
+            $("#nav-btn-m").css('display', 'none');  
         } else {
             $("#a-08-title-01").css('animation', '0');
             $("#a-08-title-02").css('animation', '0');
+            $("#nav-btn-m").css('display', 'inline-block');
         }
 
     });
