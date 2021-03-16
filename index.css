@@ -3830,7 +3830,7 @@ footer {
     }
 
     #nav-logo-m {
-        width: 100px;
+        width: 90px;
         margin: 0;
         left: 0;
         margin-top: 9px;
@@ -3856,7 +3856,7 @@ footer {
         font-size: 0.85em;
         margin: 0 2px 0 20px;
         color: #121212;
-        letter-spacing: -0.02em;
+        letter-spacing: -0.04em;
         margin-top: 3px;
     }
 
@@ -3884,7 +3884,7 @@ footer {
         color: #ffffff;
         font-weight: 400;
         font-size: 0.9em;
-        padding: 12px 0 14px 0;
+        padding: 8px 0 10px 0;
         width: 94%;
         text-decoration: none;
         letter-spacing: -0.02em;
