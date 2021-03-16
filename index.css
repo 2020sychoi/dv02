@@ -4282,6 +4282,7 @@ footer {
         border-radius: 0;
         border: 0;
         box-shadow: 0;
+        overflow-y: auto;
     }
 
     .a-06-popup-con {
