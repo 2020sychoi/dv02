@@ -4266,6 +4266,15 @@ footer {
         padding-bottom: 2px;
     }
 
+    .a-06-txt-btn {
+        font-family: NotoSans;
+        letter-spacing: -0.06em;
+        text-decoration: underline;
+        padding-top: 14px;
+        color: #888888;
+        font-size: 0.9em;
+    }
+
 
     /* Mobile width 480px 아래 article a-07 유튜브영상 시작 */
 
