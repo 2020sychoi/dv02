@@ -4296,7 +4296,6 @@ footer {
         height: 1000px;
     }
 
-
     .a-08-title {
         margin: 0 0 0 -2px;
         font-weight: 700;
@@ -4314,6 +4313,10 @@ footer {
         display: block;
     }
 
+    .a-08-join {
+        margin-top: 32px;
+    }
+
     .a-08-join-left {
         top: 0;
         width: 100%;
@@ -4322,18 +4325,18 @@ footer {
     }
 
     #a-08-join-tab {
-        height: 36px;
+        height: 30px;
         left: -1px;
     }
 
     #a-08-join-tab-btn-01 {
-        padding: 10px 26px 9px;
+        padding: 10px 20px 8px;
         letter-spacing: -0.04em;
         font-size: 0.9em;
     }
 
     #a-08-join-tab-btn-02 {
-        padding: 10px 26px 9px;
+        padding: 10px 20px 8px;
         letter-spacing: -0.04em;
         font-size: 0.9em;
     }
