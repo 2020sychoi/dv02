@@ -3892,7 +3892,7 @@ footer {
     }
 
     .join-btn-m {
-        display: none;
+        display: block;
         position: fixed;
         width: 100%;
         bottom: 10px;
