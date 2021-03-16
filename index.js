@@ -19,12 +19,20 @@ $(document).ready(function(){
             $("#a-01-vision-01").css('animation', 'a-01-txt 0.7s 0s both'); 
             $("#a-01-vision-02").css('animation', 'a-01-txt 0.7s 0.4s both'); 
             $("#a-01-vision-03").css('animation', 'a-01-txt 0.7s 0.8s both'); 
-            $("#a-01-vision-04").css('animation', 'a-01-txt 0.5s 1s both'); 
+            $("#a-01-vision-04").css('animation', 'a-01-txt 0.5s 1s both');
+            $("#a-01-vision-01-m").css('animation', 'a-01-txt 0.7s 0s both'); 
+            $("#a-01-vision-02-m").css('animation', 'a-01-txt 0.7s 0.4s both'); 
+            $("#a-01-vision-03-m").css('animation', 'a-01-txt 0.7s 0.8s both'); 
+            $("#a-01-vision-04-m").css('animation', 'a-01-txt 0.5s 1s both'); 
         } else {
             $("#a-01-vision-01").css('animation', '0');
             $("#a-01-vision-02").css('animation', '0');
             $("#a-01-vision-03").css('animation', '0');
             $("#a-01-vision-04").css('animation', '0');
+            $("#a-01-vision-01-m").css('animation', '0');
+            $("#a-01-vision-02-m").css('animation', '0');
+            $("#a-01-vision-03-m").css('animation', '0');
+            $("#a-01-vision-04-m").css('animation', '0');
         }
 
         if(scroll_pos > (a_04_Y - 500)) {
@@ -76,10 +84,12 @@ $(document).ready(function(){
         if(scroll_pos > (a_08_Y - 500)) {
             $("#a-08-title-01").css('animation', 'a-01-txt 0.7s 0s both'); 
             $("#a-08-title-02").css('animation', 'a-01-txt 0.7s 0.4s both');
+            $("#a-08-title-02-m").css('animation', 'a-01-txt 0.7s 0.4s both');
             $("#nav-btn-m").css('display', 'none');  
         } else {
             $("#a-08-title-01").css('animation', '0');
             $("#a-08-title-02").css('animation', '0');
+            $("#a-08-title-02-m").css('animation', '0');
             $("#nav-btn-m").css('display', 'inline-block');
         }
 

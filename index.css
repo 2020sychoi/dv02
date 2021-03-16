@@ -3978,14 +3978,15 @@ footer {
     }
 
     #a-02-sub-title {
-        font-size: 1em;
+        font-size: 0.9em;
         margin-top: 0;
+        letter-spacing: -0.03;
     }
 
     #a-02-title {
         font-size: 1.9em;
         letter-spacing: -0.04em;
-        margin: -10px 0 0 -3px;
+        margin: -12px 0 0 -3px;
     }
 
     .a-02-tab { 
@@ -4272,6 +4273,103 @@ footer {
 
 
     /* Mobile width 480px 아래 article a-06 우리의준비 시작 */
+
+    #a-06-bg-01 {
+        width: 48%;
+        height: 32%;
+        margin-left: -120px;
+    }
+
+    #a-06-bg-02 {
+        width: 30%;
+        height: 16%;
+        margin: 370px 0 0 -50px;
+    }
+
+    #a-06-bg-03 {
+        width: 190px;
+        height: 120px;
+        margin: 80px 0 0 15%;
+    }
+
+    #a-06-bg-04 {
+        width: 22%;
+        height: 12%;
+        margin: 240px 0 0 -11px;
+    }
+
+    #a-06-bg-05 {
+        width: 40%;
+        height: 30%;
+        margin-left: 0px;
+    }
+
+    #a-06-bg-05-1 {
+        width: 110px;
+        height: 110px;
+        margin-left: 240px;
+        bottom: 180px;
+    }
+
+    #a-06-bg-06 {
+        width: 110px;
+        height: 110px;
+        margin: 0 0 210px 120px;
+    }
+
+    #a-06-bg-07 {
+        width: 130px;
+        height: 100px;
+        margin: 0 0 100px 80px;
+    }
+
+    #a-06-bg-08 {
+        width: 20%;
+        height: 14%;
+        margin: 60px 0 0 0;
+    }
+
+    #a-06-bg-09 {
+        width: 90px;
+        height: 70px;
+        margin: 14px 0 0 0px;
+    }
+
+    #a-06-bg-10 {
+        width: 220px;
+        height: 120px;
+        margin: 0 38% 0 0;
+    }
+
+    #a-06-bg-11 {
+        width: 90px;
+        height: 120px;
+        margin: 50px 100px 0 0;
+    }
+
+    #a-06-bg-12 {
+        width: 50%;
+        height: 30%;
+        margin: 220px -220px 0 0;
+    }
+
+    #a-06-bg-13 {
+        width: 160px;
+        height: 100px;
+        margin-right: 8%;
+    }
+
+    #a-06-bg-14 {
+        width: 100px;
+        height: 180px;
+        bottom: 140px;
+    }
+
+    #a-06-bg-15 {
+        width: 120px;
+        height: 80px;
+        margin-right: 0;
+    }
 
     #a-06-sub-title {
         font-size: 1.1em;
