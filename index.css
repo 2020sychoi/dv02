@@ -4314,7 +4314,7 @@ footer {
     .a-06-popup-con-right {
         width: 100%;
         height: auto;
-        margin: 396px 0 0;
+        margin: 396px 0 20px 0;
         line-height: 2em;
         display: inline-flex;
     }
